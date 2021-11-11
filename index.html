@@ -21,7 +21,7 @@
 </head>
 <body>
     <!--HEADER-->
-    <div class="container-header">
+    <div class="container-header d-block">
         <div class="logo-header container-fluid">
             <div class="row">
                 <div class="col-12 text-end">
@@ -30,23 +30,66 @@
             </div>
         </div>
         <div class="container-fluid">
-            <div class="row">
+            <div class="row pt-1 pb-1">
+                <!--logo-->
                 <div class="col-6 col-xl-1">
                     <img src="img/play_logo.svg" alt="play_logo">
                 </div>
+                <!--menu a tendina-->
                 <div class="col-6 d-xl-none">
                     <div class="dropdown text-end mt-2">
-                        <a class="btn btn-secondary" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="btn" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fas fa-bars"></i>
                         </a>
-                      
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Giochi
+                                </button>
+                            </li>
+                            <li>
+                                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Hardware
+                                </button>
+                            </li>
+                            <li>
+                                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Servizi
+                                </button>
+                            </li>
+                            <li>
+                                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Novità
+                                </button>
+                            </li>
+                            <li>
+                                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Fai acquisti
+                                </button>
+                            </li>
+                            <li>
+                                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Supporto
+                                </button>
+                            </li>
+                            <li>
+                                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                My PlayStation
+                                </button>
+                            </li>
+                            <li class="p-2">
+                                <button type="button" class="btn btn-dark rounded-pill">
+                                Accedi
+                                </button>
+                            </li>
+                            <li>
+                                <button><img src="img/lens.svg" alt="lens"></button>
+                            </li>
                         </ul>
-                      </div>
+                    </div>
                 </div>
+
+                <!--menu largo-->
                 <div class="col-xl-11 text-start mt-2 d-none d-xl-inline-block">
                     <div class="row">
                         <div class="col-8">
@@ -224,7 +267,7 @@
                             </div>
                             <!--/SUPPORTO-->
                         </div>
-                    <div class="col-4 dx-header-xl d-flex justify-content-end">
+                        <div class="col-4 dx-header-xl d-flex justify-content-end">
                             <!--MY PLAYSTATION-->
                             <div class="dropdown d-inline-block">
                                 <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -261,14 +304,40 @@
                             <!--FIND-->
                             <button><img src="img/lens.svg" alt="lens"></button>
                             <!--FIND-->
+                        </div>
                     </div>
                 </div>
+                <!--/menu largo-->
             </div>
         </div>
     </div>
     <!--/HEADER-->
 
     <!--JUMBO-->
+    <div class="container-jumbo">
+        <div class="conainer-fluid sfondo-container-jumbo">
+            <div class="row mb-4">
+                <div class="col-12">
+                    <img src="img/returnal-hero-banner-logo.png" alt="returnal-hero-banner-logo" class="banner">
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-12">
+                    <h2>Rompi il cerchio</h2>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-12 col-xl-4">
+                    <p>Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button type="button" class="btn btn-danger rounded-pill">Acquista ora</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--/JUMBO-->
 
     <!--SECTION-NAME-PRODUCT-->

@@ -46,13 +46,40 @@
     color: var(--ps-color);
 }
 
-.dx-header-xl button {
+.dx-header-xl button,
+.dropdown-menu li button {
     border: none;
 }
 
-.dx-header-xl button img {
+.dx-header-xl button img,
+.dropdown-menu li:last-child button img {
     width: 20px;
 }
-
-
 /*/header*/
+
+/*jumbo*/
+.container-jumbo {
+    width: 100%;
+}
+
+.sfondo-container-jumbo {
+    color: white;
+    background-image: url(img/returnal-listing-thumb-01-ps5.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+.sfondo-container-jumbo {
+    padding-top: 16em;
+    padding-left: 2em;
+    padding-bottom: 3em;
+}
+
+.banner {
+    width: 10%;
+}
+
+.danger {
+    background-color: red;
+}
+/*/jumbo*/

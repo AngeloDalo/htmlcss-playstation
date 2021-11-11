@@ -46,6 +46,13 @@
     color: var(--ps-color);
 }
 
+.dx-header-xl button {
+    border: none;
+}
+
+.dx-header-xl button img {
+    width: 20px;
+}
 
 
 /*/header*/

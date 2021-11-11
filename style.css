@@ -7,6 +7,9 @@
 }
 
 /*header*/
+.container-header {
+    width: 100%;
+}
 .logo-header {
     background-color: black;
 }
@@ -58,15 +61,12 @@
 /*/header*/
 
 /*jumbo*/
-.container-jumbo {
-    width: 100%;
-}
-
 .sfondo-container-jumbo {
     color: white;
     background-image: url(img/returnal-listing-thumb-01-ps5.jpg);
     background-size: cover;
     background-position: right;
+    overflow: hidden;
 }
 
 .sfondo-container-jumbo {

@@ -108,3 +108,21 @@
     color: var(--ps-color);
 }
 /*/name_product*/
+
+/*information*/
+.ps5-foto {
+    width: 100%;
+}
+
+.row-information {
+    padding-top: 20%;
+}
+
+.orizzontal-ps5{
+    width: 100%;
+}
+
+.prodotti:hover{
+    border-bottom: 3px solid var(--ps-color);
+}
+/*/information*/

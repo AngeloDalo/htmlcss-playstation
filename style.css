@@ -1,0 +1,23 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*header*/
+.logo-header {
+    background-color: black;
+}
+
+.sony-logo {
+    width: 70px;
+}
+
+.container-header {
+    width: 100%;
+}
+
+.dropdown .btn-secondary {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-color: white;
+}
+/*/header*/

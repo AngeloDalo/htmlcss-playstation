@@ -87,9 +87,14 @@
     width: 80%;
 }
 
+.jumbo-game:hover button {
+    border: 3px solid var(--ps-color);
+    border-radius: 10%;
+}
+
 .jumbo-game button {
-    border: none;
     cursor: pointer;
+    border: none;
 }
 
 .jumbo-game img {
@@ -97,3 +102,9 @@
     width: 100%;
 }
 /*/jumbo*/
+
+/*name-product*/
+.name-product .row div .name-product-blu {
+    color: var(--ps-color);
+}
+/*/name_product*/

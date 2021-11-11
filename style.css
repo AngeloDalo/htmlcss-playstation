@@ -2,6 +2,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+:root {
+    --ps-color: #0070d1;
+}
+
 /*header*/
 .logo-header {
     background-color: black;
@@ -20,4 +24,28 @@
     background-color: white;
     border-color: white;
 }
+
+.dropdown .btn:hover{
+    color:blue;
+}
+
+.dropdown .btn:focus {
+    box-shadow: none;
+}
+
+.dropdown ul {
+    width: 100vw;
+}
+
+.ps5-blu {
+    width: 60px;
+}
+
+.fa-circle {
+    font-size: 0.2em;
+    color: var(--ps-color);
+}
+
+
+
 /*/header*/

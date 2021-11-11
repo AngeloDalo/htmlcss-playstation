@@ -82,4 +82,18 @@
 .danger {
     background-color: red;
 }
+
+.jumbo-game {
+    width: 80%;
+}
+
+.jumbo-game button {
+    border: none;
+    cursor: pointer;
+}
+
+.jumbo-game img {
+    border-radius: 5%;
+    width: 100%;
+}
 /*/jumbo*/

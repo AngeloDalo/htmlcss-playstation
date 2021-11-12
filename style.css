@@ -22,9 +22,6 @@ ul.list-inline.dropdown-menu.text-center.show {
     background-color: white;
 }
 
-.container-header {
-    width: 100%;
-}
 .logo-header {
     background-color: black;
 }
@@ -142,7 +139,6 @@ ul.list-inline.dropdown-menu.text-center.show {
 }
 
 .orizzontal-ps5{
-    width: 100%;
     filter: opacity(0.7);
 }
 
@@ -175,16 +171,7 @@ ul.list-inline.dropdown-menu.text-center.show {
     color: white;
 }
 
-.container-new-game .row div img {
-    width: 100%;
-}
 /*/spam*/
-
-/*explore*/
-.container-fluid .row div .row img {
-    width: 100%;
-}
-/*/explore*/
 
 /*PS+*/
 .container-ps-plus {
@@ -200,36 +187,16 @@ ul.list-inline.dropdown-menu.text-center.show {
 }
 /*/PS+*/
 
-/*sale*/
-.container-sale div div img {
-    width: 100%;
-}
-/*/sale*/
-
 /*ps-now*/
 .container-ps-now {
     background-color: var(--ps-now);
     color: white;
 }
 
-.container-ps-now div div:first-child div img {
-    width: 50%;
-}
-
 .container-ps-now .row div:first-child {
     padding-top: 5em;
 }
-
-.img-ps-now {
-    width: 100%;
-} 
 /*/ps-now*/
-
-/*social*/
-.container-social .row:last-child div img{
-    width: 100%;
-}
-/*/social*/
 
 /*footer*/
 .containe-footer {

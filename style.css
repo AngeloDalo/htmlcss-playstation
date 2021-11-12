@@ -4,6 +4,7 @@
 
 :root {
     --ps-color: #0070d1;
+    --grey-game: #1f1f1f;
 }
 
 /*header*/
@@ -126,3 +127,28 @@
     border-bottom: 3px solid var(--ps-color);
 }
 /*/information*/
+
+/*spam*/
+.container-spam {
+    padding-top: 5em;
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    background-position-x: center;
+    background-position-y: initial;
+    background-repeat: no-repeat;
+    color: white;
+    padding-bottom: 3em;
+}
+
+.it-takes-foto {
+    width: 70%;
+}
+
+.container-new-game {
+    background-color: var(--grey-game);
+    color: white;
+}
+
+.container-new-game .row div img {
+    width: 100%;
+}
+/*/spam*/

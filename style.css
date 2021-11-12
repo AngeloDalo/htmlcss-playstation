@@ -203,7 +203,8 @@ img.w-100.it-takes-foto {
 }
 
 .container-ps-plus .row div:last-child div img {
-    width: 80%;
+    height: 100%;
+    width: 100%;
 }
 /*/PS+*/
 

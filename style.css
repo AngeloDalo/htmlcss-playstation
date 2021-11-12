@@ -5,6 +5,7 @@
 :root {
     --ps-color: #0070d1;
     --grey-game: #1f1f1f;
+    --grey-ps-plus: #bebcbb;
 }
 
 /*header*/
@@ -178,3 +179,17 @@ ul.list-inline.dropdown-menu.text-center.show {
     width: 100%;
 }
 /*/explore*/
+
+/*PS+*/
+.container-ps-plus {
+    background-color: var(--grey-ps-plus);
+}
+
+.container-ps-plus .row:first-child div:first-child div img {
+    width: 50%;
+}
+
+.container-ps-plus .row div:last-child div img {
+    width: 80%;
+}
+/*/PS+*/

@@ -88,14 +88,14 @@ a.sub-link.dropdown-item.d-flex.align-items-center:hover {
 
 .sfondo-container-jumbo {
     color: white;
-    background-image: url(img/returnal-listing-thumb-01-ps5.jpg);
+    background-image: url(img/jumbo-bg.png);
     background-size: cover;
-    background-position: right;
+    background-position-y: center;
     overflow: hidden;
 }
 
 .sfondo-container-jumbo {
-    padding-top: 16em;
+    padding-top: 12em;
     padding-left: 2em;
     padding-bottom: 3em;
 }
@@ -114,7 +114,7 @@ a.sub-link.dropdown-item.d-flex.align-items-center:hover {
 
 .jumbo-game:hover button {
     border: 3px solid var(--ps-color);
-    border-radius: 10%;
+    border-radius: 15%;
 }
 
 .jumbo-game button {
@@ -134,6 +134,10 @@ a.sub-link.dropdown-item.d-flex.align-items-center:hover {
 
 .jumbo-game:hover {
     margin-top: -1em;
+}
+
+img.img-round {
+    border-radius: 10%;
 }
 /*/jumbo*/
 
@@ -169,15 +173,16 @@ a.sub-link.dropdown-item.d-flex.align-items-center:hover {
 .container-spam {
     padding-top: 5em;
     background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
     background-position-x: center;
-    background-position-y: initial;
+    background-position-y: center;
     background-repeat: no-repeat;
     color: white;
     padding-bottom: 3em;
 }
 
-.it-takes-foto {
-    width: 70%;
+img.w-100.it-takes-foto {
+    width: 40% !important;
 }
 
 .container-new-game {

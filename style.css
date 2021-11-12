@@ -6,6 +6,7 @@
     --ps-color: #0070d1;
     --grey-game: #1f1f1f;
     --grey-ps-plus: #bebcbb;
+    --ps-now: #161c3b;
 }
 
 /*header*/
@@ -14,7 +15,7 @@
 }
 
 ul.list-inline.dropdown-menu.text-center.show {
-    transform: translate3d(2px, 90px, -30px) !important;
+    transform: translate3d(2px, 80px, -30px) !important;
 }
 
 .header-link {
@@ -204,3 +205,22 @@ ul.list-inline.dropdown-menu.text-center.show {
     width: 100%;
 }
 /*/sale*/
+
+/*ps-now*/
+.container-ps-now {
+    background-color: var(--ps-now);
+    color: white;
+}
+
+.container-ps-now div div:first-child div img {
+    width: 50%;
+}
+
+.container-ps-now .row div:first-child {
+    padding-top: 5em;
+}
+
+.img-ps-now {
+    width: 100%;
+} 
+/*/ps-now*/

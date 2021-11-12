@@ -11,11 +11,7 @@
 
 /*header*/
 .dropdown ul {
-    width: 99%;
-}
-
-ul.list-inline.dropdown-menu.text-center.show {
-    transform: translate3d(2px, 80px, -30px) !important;
+    width: 100%;
 }
 
 .header-link {
@@ -48,7 +44,7 @@ ul.list-inline.dropdown-menu.text-center.show {
     box-shadow: none;
 }
 
-.ps5-blu {
+.btn-shadow .ps5-blu {
     width: 60px;
 }
 
@@ -73,6 +69,15 @@ ul.list-inline.dropdown-menu.text-center.show {
 
 .lens {
     width: 40px;
+}
+
+a.sub-link.dropdown-item.d-flex.align-items-center:hover {
+    color: blue;
+}
+
+.btn-shadow:hover {
+    -webkit-box-shadow: 1px 2px 20px 2px rgba(0,0,0,0.82); 
+    box-shadow: 1px 2px 20px 2px rgba(0,0,0,0.82);
 }
 /*/header*/
 
@@ -120,6 +125,15 @@ ul.list-inline.dropdown-menu.text-center.show {
 .jumbo-game img {
     border-radius: 5%;
     width: 100%;
+}
+
+.jumbo-game {
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.jumbo-game:hover {
+    margin-top: -1em;
 }
 /*/jumbo*/
 

@@ -90,6 +90,7 @@ a.sub-link.dropdown-item.d-flex.align-items-center:hover {
     color: white;
     background-image: url(img/jumbo-bg.png);
     background-size: cover;
+    background-position-x: center;
     background-position-y: center;
     overflow: hidden;
 }

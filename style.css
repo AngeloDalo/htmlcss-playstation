@@ -142,10 +142,15 @@ ul.list-inline.dropdown-menu.text-center.show {
 
 .orizzontal-ps5{
     width: 100%;
+    filter: opacity(0.7);
 }
 
 .prodotti:hover{
     border-bottom: 3px solid var(--ps-color);
+}
+
+.prodotti:hover .orizzontal-ps5 {
+    filter: opacity(1);
 }
 /*/information*/
 

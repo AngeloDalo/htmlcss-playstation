@@ -224,3 +224,38 @@ ul.list-inline.dropdown-menu.text-center.show {
     width: 100%;
 } 
 /*/ps-now*/
+
+/*social*/
+.container-social .row:last-child div img{
+    width: 100%;
+}
+/*/social*/
+
+/*footer*/
+.containe-footer {
+    padding-top: 10em;
+    background-color: var(--ps-color);
+    color: white;
+    padding-bottom: 5em;
+}
+
+.container-fluid .row div .row .ps-footer-logo {
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+    width: 20%;
+}
+
+.container-fluid .row div .row .sie-logo {
+    width: 20%;
+}
+
+.footer-list {
+    color: white;
+    list-style: none;
+}
+
+.footer-list li a {
+    color: white;
+    text-decoration: none;
+}
+/*/footer*/

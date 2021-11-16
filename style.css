@@ -79,7 +79,35 @@ a.sub-link.dropdown-item.d-flex.align-items-center:hover {
     -webkit-box-shadow: 1px 2px 20px 2px rgba(0,0,0,0.82); 
     box-shadow: 1px 2px 20px 2px rgba(0,0,0,0.82);
 }
-/*/header*/
+
+button.btn-shadow {
+    background-color: white;
+}
+
+.d-inline-block .sub-link i {
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+button.btn.btn-primary.rounded-pill {
+    border: 2px solid transparent;
+    outline: 2px solid  var(--ps-color);
+}
+
+button.btn.btn-primary.rounded-pill:hover {
+    border: 2px solid white;
+    outline: 2px solid  var(--ps-color);
+}
+
+button.btn.btn-dark.rounded-pill {
+    border: 2px solid transparent;
+    outline: 2px solid  black;
+}
+
+button.btn.btn-dark.rounded-pill:hover {
+    border: 2px solid white;
+    outline: 2px solid  black;
+}
 
 /*jumbo*/
 .container-jumbo {
@@ -114,8 +142,9 @@ a.sub-link.dropdown-item.d-flex.align-items-center:hover {
 }
 
 .jumbo-game:hover button {
+    padding: 0.1em;
     border: 3px solid var(--ps-color);
-    border-radius: 15%;
+    border-radius: 8%;
 }
 
 .jumbo-game button {
@@ -139,6 +168,16 @@ a.sub-link.dropdown-item.d-flex.align-items-center:hover {
 
 img.img-round {
     border-radius: 10%;
+}
+
+button.btn.btn-danger.rounded-pill {
+    border: 2px solid transparent;
+    outline: 2px solid #cd3d0f;
+}
+
+button.btn.btn-danger.rounded-pill:hover {
+    border: 2px solid black;
+    outline: 2px solid #cd3d0f;
 }
 /*/jumbo*/
 
@@ -167,20 +206,6 @@ img.img-round {
 
 .prodotti:hover .orizzontal-ps5 {
     filter: opacity(1);
-}
-
-.btn div {
-    border: 2px solid transparent;
-    padding: 0.3em;
-    margin: -0.24em;
-}
-
-.btn:hover .white {
-    border: 2px solid white;
-}
-
-.btn:hover .black {
-    border: 2px solid black;
 }
 /*/information*/
 
@@ -230,6 +255,16 @@ img.w-100.it-takes-foto {
 
 .container-ps-now .row div:first-child {
     padding-top: 5em;
+}
+
+button.btn.btn-light.rounded-pill {
+    border: 2px solid transparent;
+    outline: 2px solid white;
+}
+
+button.btn.btn-light.rounded-pill:hover {
+    border: 2px solid black;
+    outline: 2px solid white;
 }
 /*/ps-now*/
 
